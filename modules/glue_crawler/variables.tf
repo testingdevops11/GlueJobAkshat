@@ -17,10 +17,10 @@ variable "database_name" {
 
   variable "path" {
       type = string
-    default = "s3://fifadataforetl/terraform/data.csv"
+    default = "s3://naushad-testing/akshat/data.csv"
   }
 
 variable "role" {
     type = string
-  default = "arn:aws:iam::186972323852:role/service-role/AWSGlueServiceRole-Etl"
+  default = "arn:aws:iam::175633476877:role/service-role/AWSGlueServiceRole-ROLETEST"
 }
