@@ -1,6 +1,6 @@
 variable "role_arn" {
   type = string
-  default = "arn:aws:iam::186972323852:role/service-role/AWSGlueServiceRole-Etl"
+  default = "arn:aws:iam::175633476877:role/service-role/AWSGlueServiceRole-ROLETEST"
 }
 
 variable "glue_version" {
@@ -24,7 +24,7 @@ type=string
 variable "script" {
 
     type=string
-    default = "s3://fifadataforetl/code.py"
+    default = "s3://naushad-testing/akshat/code.py"
   
 }
 
