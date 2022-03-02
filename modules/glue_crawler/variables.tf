@@ -17,7 +17,7 @@ variable "database_name" {
 
   variable "path" {
       type = string
-    default = "s3://naushad-testing/akshat/data.csv"
+    default = "s3://naushad-tesing/akshat/data.csv"
   }
 
 variable "role" {
