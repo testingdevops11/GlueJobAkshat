@@ -24,7 +24,7 @@ type=string
 variable "script" {
 
     type=string
-    default = "s3://naushad-testing/akshat/code.py"
+    default = "s3://naushad-tesing/akshat/code.py"
   
 }
 
